@@ -1,0 +1,316 @@
+body,html{
+	margin: 0;
+	padding:0;
+}
+.wrapper{
+	width: 800px;
+  left: 0;
+  right:0;
+  	margin: auto;
+  	font-family: 'Raleway', sans-serif;
+
+}
+
+.navbar {
+  top: 0;
+  position: sticky;
+  width:800px;
+  z-index: 9999;
+  height: 55px;
+  background-color: white;
+}
+
+.navbar ul{
+	padding-right: 110px;
+	padding-top: 5px;
+	float: right;
+  	list-style-type: none;
+}
+.navbar ul li {
+  display: inline;
+  padding: 7px;
+  
+}
+.navbar ul li a{
+	font-size: 10.5px;
+	text-decoration: none;
+	color: grey;
+}
+.name{
+	font-family: "Times New Roman";
+	font-style: italic;
+ 	line-height: 60px;
+	font-size: 17px;
+	padding-left:105px; 
+	color: #48267C;
+}
+
+
+
+.parallaxContainer {
+	
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.parallaxComponent {
+  z-index: -1;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2.1);
+  
+}
+
+.bg1{
+  margin-top: -50px;
+   background: url(http://csci571.com/hw/hw3/images/coffee2.jpg);
+  height: 520px;
+  background-size: 1190px;
+ background-position: -205px -65px;
+}
+
+
+
+
+
+.contentComponent1 {
+  margin-top: 68px;
+  position: relative;
+  display: block;
+  height:537px;
+  z-index: 2;
+}
+
+.column {
+   display: table;
+  float: left;
+  width: 33.33%;
+  height: 537px; 
+}
+
+.columnData{
+  color: white;
+  display: table-cell;
+  vertical-align: middle; 
+  padding-left: 30px;
+  
+}
+
+.columnData p{
+  font-size: 12px;
+  line-height: 14px;
+  }
+
+.columnData h2{
+  line-height: 10px;
+  font-size: 20px;
+  -webkit-text-stroke: 1.5px white; color: white;
+
+}
+
+
+
+.bg2{
+  margin-top: -43px;
+   background: url(http://csci571.com/hw/hw3/images/coffee1.jpg);
+  height: 500px;
+  background-size: 1270px;
+ background-position: -260px -80px;
+}
+
+
+
+
+
+.contentComponent2 {
+  margin-top: -100px;
+  position: relative;
+  display: block;
+  height:410px;
+  z-index: 2;
+}
+
+
+.aboutContent{
+  padding-top: 90px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.aboutData{
+  position: absolute;
+  margin-top: -30px;
+    color: white;
+  font-size: 30px;
+}
+
+.aboutHeader{
+  position: relative;
+  color: white;
+}
+
+
+.formComponent {
+  margin-top: -100px;
+  display: block;
+  background-color: white;
+  height: 465px; 
+}
+.columnType2 {
+  float: left;
+  width: 50%;
+  
+}
+
+.columnType2Data1 {
+  color: #48267C;
+ padding-top: 170px; 
+ padding-left: 70px;
+ font-size: 10.5px;
+ position: relative;
+}
+
+
+
+.columnType2Data1 span{
+  margin-top: 20px;
+  padding-left: 5px;
+  line-height: 35px;
+  font-size: 30px;
+}
+
+.contactDetail{
+  filter: brightness(85%);
+  padding-left: 5px;
+  position: absolute;
+  margin-top: -8px;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.contactDetailP{
+  padding-top: 30px;
+}
+
+.columnType2Data2 {
+  color: #48267C;
+  padding-top: 210px; 
+}
+
+input[type=text]{
+  border-style: solid;
+  width: 300px;
+  height: 9px;
+  padding: 5px;
+  margin-bottom: 3px;
+  border-color: #48267C; 
+  border-width: 1px;
+  font-family: 'Raleway', sans-serif;
+
+}
+textarea{
+
+  border-color: #48267C; 
+  border-width: 1px;
+  width: 298px;
+  margin-bottom: 4px;
+  padding: 6px;
+  resize: none;
+  font-family: 'Raleway', sans-serif;
+  border-style: solid;
+}
+
+input[type=submit] {
+  font-style: oblique;
+  background-color: #48267C;
+  color: white;
+  padding: 6px 16px;
+  font-size: 11px;
+  float: right;
+  margin-right: 82px;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+::-moz-placeholder { 
+  filter: brightness(85%);
+  font-size: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #48267C;
+  opacity: 0.8;
+}
+
+.centerContent{
+  top:220px;
+  width: 380px;
+  height:200px;
+  background-color: white;
+  display: block;
+  z-index: 3;
+  position: absolute;
+  left:0;
+  right:0;
+  margin: auto;
+}
+
+.column0{
+  float: left;
+  width: 42%;
+  height: 100%;
+  background-color: white;
+}
+.column00{
+  height: 100%;
+}
+.image0{
+  margin-left: 28px;
+  margin-top:30px; 
+  width: 110px;
+  height: 140px;
+  background-color: red;
+}
+
+.bg3{
+   background: url(http://csci571.com/hw/hw3/images/face.jpg);
+   background-size: 110px;
+ background-position: 0px -13px;
+}
+
+.text00 {
+  margin-top: 28px;
+}
+
+.s1{
+  color: #48267C;
+  font-style: italic;
+  font-family: "Times New Roman";
+  font-size: 14px;
+}
+.s2{
+  color: #48267C;
+  line-height: 28px;
+  font-size: 28px;
+}
+.s3{
+  line-height: 34px;
+  color: #48267C;
+  font-size:34px; 
+letter-spacing: 1.8px;
+  -webkit-text-stroke: 2.5px #48267C; color: #48267C;
+}
+hr{
+  margin-top: -31px;
+  background-color: #48267C;
+  height: 2.2px; 
+  width: 50px;
+  right: 200px: 
+  
+}
+.s4{
+  position: absolute;
+  margin-top: -3px;
+  color: #48267C;
+  font-size: 13px;
+  }
